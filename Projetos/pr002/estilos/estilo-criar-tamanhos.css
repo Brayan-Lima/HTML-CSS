@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Truculenta:opsz,wght@12..72,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Truculenta:opsz,wght@12..72,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'HTML-font';
+    src: url(../arquivos\ de\ fontes/html5_values.ttf), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor-subA1: rgb(203, 203, 255);
+    --cor-a1: rgb(95, 95, 255);
+    --cor-a2: rgb(45, 45, 255);
+    --cor-a3: rgb(1, 1, 255);
+    --cor-a4: rgb(0, 0, 211);
+    --cor-a5: rgb(0, 0, 163);
+    --cor-a6: rgb(0, 0, 80);
+    --cor-b1: rgb(255, 196, 86);
+    --cor-b2: rgb(246, 176, 45);
+    --cor-b3: rgb(249, 162, 0);
+    --cor-b4: rgb(195, 127, 0);
+    --cor-c1: rgb(250, 235, 215);
+    --cor-c2: rgb(255, 213, 158);
+    --cor-c3: rgb(255, 192, 109);
+    --cor-c4: rgb(255, 177, 75);
+    --cor-c5: rgb(255, 169, 56);
+    --fonte-destaque: 'Bebas Neue';
+    --fonte-curiosidade: 'Oswald';
+    --fonte-subTitulo: 'HTML-font';
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(var(--cor-a3), var(--cor-a5));
+}
+
+header > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 100px;
+}
+
+header > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor-b2), var(--cor-b4));
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.534);
+}
+
+nav > a { 
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor-b2);
+    color: black;
+    border-radius: 12px;
+    transition-duration: 200ms;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor-c1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.522);
+    margin-bottom: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p {
+    text-indent: 30px;
+    line-height: 1.3em;
+    padding: 10px;
+}
+
+.subTitulo {
+    font-family: var(--fonte-subTitulo);
+    font-size: 50px;
+}
+
+div {
+    padding: 100px;
+    margin: auto;
+    height: 0px;
+    width: 0px;
+    border-style: dashed;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--cor-c2);
+
+}
