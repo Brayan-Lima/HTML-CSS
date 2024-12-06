@@ -14,3 +14,7 @@ Acesse aqui meus exercícios e projetos:
 <hr>
 
  <strong>CSS</strong>
+
+<hr>
+
+<strong>Javascript</strong>
