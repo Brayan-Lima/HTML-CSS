@@ -1,6 +1,6 @@
 # HTML-CSS
  Estudos de HTML5 e CSS3
 
- Estou aprendendo a criar sites e agora vou gerenciar meus repositórioss
+ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 
  <a href="https://brayan-lima.github.io/HTML-CSS/Exercicios">Acesse aqui o meu exercício 001</a>
