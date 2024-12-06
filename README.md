@@ -9,8 +9,8 @@ Acesse aqui meus exercícios e projetos:
 
  <a href="https://brayan-lima.github.io/HTML-CSS/Exercicios">Acesse aqui o meu exercício 001</a>
 
- <hr>
-
  <a href="#">Acesse aqui o Projeto Android</a>
+
+<hr>
 
  <strong>CSS</strong>
