@@ -11,4 +11,4 @@ Acesse aqui meus exercícios e projetos:
 
  <hr>
 
- <a href="">Acesse aqui o Projeto Android</a>
+ <a href="#">Acesse aqui o Projeto Android</a>
